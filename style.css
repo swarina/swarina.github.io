@@ -27,6 +27,8 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* Navbar CSS */
@@ -346,9 +348,9 @@ ul li a:hover {
     width: 400px;
     height: 400px;
   }
-  .social {
+  /* .social {
     left: 110px;
-  }
+  } */
   .heading h2 {
     font-size: 1.6rem;
   }
@@ -356,8 +358,7 @@ ul li a:hover {
     width: 450px;
     height: 600px;
   }
-  .about-text,
-  .work-text {
+  .about-text {
     max-width: 400px;
   }
   .about-text h1 {
@@ -365,14 +366,6 @@ ul li a:hover {
   }
   .about-text p {
     line-height: 1.5rem;
-  }
-  .work-text p {
-    line-height: 1.5rem;
-    margin: 5px 0px 24px;
-  }
-  .work-img {
-    width: 250px;
-    height: 300px;
   }
 }
 @media (max-width: 871px) {
@@ -405,22 +398,11 @@ ul li a:hover {
     margin-bottom: 1.8rem;
     line-height: 3rem;
   }
-  .about-content,
-  .work-content {
+  .about-content {
     flex-direction: column;
   }
-  .about-text,
-  .work-text {
+  .about-text{
     max-width: 280px;
-  }
-  .work-text h1 {
-    font-size: 1.2rem;
-    line-height: 2rem;
-  }
-  .work-img {
-    width: 200px;
-    height: 280px;
-    margin-top: 4rem;
   }
   .contact-content {
     flex-direction: column;
