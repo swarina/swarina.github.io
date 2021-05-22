@@ -377,8 +377,16 @@ ul li a:hover {
     padding: 35px;
   }
   #home {
+    margin-top: 5rem;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+  .home-text {
+    text-align: center;
+  }
+  .home-img {
+    text-align: center;
+    margin-top: 2rem;
   }
 }
 @media (max-width: 360px) {
