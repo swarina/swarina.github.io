@@ -379,7 +379,7 @@ ul li a:hover {
   #home {
     margin-top: 5rem;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
   }
   .home-text {
     text-align: center;
@@ -389,7 +389,7 @@ ul li a:hover {
     margin-top: 2rem;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   section {
     padding: 35px;
   }
@@ -410,15 +410,15 @@ ul li a:hover {
     line-height: 3rem;
   }
   .about-content {
-    flex-direction: column;
+    text-align: center;
   }
   .about-text{
     max-width: 280px;
-    text-align: center;
   }
-  .contact-content {
+  /* .contact-content {
     flex-direction: column;
-  }
+    flex-wrap: wrap;
+  } */
   .app {
     margin-top: 4rem;
   }
