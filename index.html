@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="This is Swarina Jaiswal's personal website.">
+    <meta name="keywords" content="HTML, CSS, Bootstrap, JavaScript, Django, Full Stack Developer">
+	<meta name="author" content="Swarina Jaiswal">
+    <title>Swarina Jaiswal</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href=images/favicon.ico>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOX Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">&lt;/Namaste, World!&gt;</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Swarina <span>Jaiswal</span> <br> Web Developer</h1>
+            
+            <!-- Social -->
+            <div class="social">
+                <a href="https://www.facebook.com/SwarinaJaiswal" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/swarinajaiswal" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/swarina" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/swarinajaiswal/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/swarina-jaiswal" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <br><br>
+            
+            <!-- Button -->
+            <a href="https://drive.google.com/file/d/1j9P1JD_BWh7_wJswEdwff8EbqOcer63i/view?usp=sharing" target="_blank" class="resume">Resume</a>
+        </div>
+
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="images/profile.png" alt="Profile image">
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="heading">
+            <h2>About</h2>
+        </div>
+        <div class="about-content">
+            <!-- About Image -->
+            <div class="about-img">
+                <img src="images/about.png" alt="">
+            </div>
+
+            <!-- About Text -->
+            <div class="about-text">
+                <h1>Hey, I'm Swarina!</h1>
+                <br>
+                <p>
+                    I'm a sophomore pursuing Computer Science from JSS Academy of Technical Education, Noida.
+                    I'm a Competitive Programmer and focused on building my Data Structure and Algorithms Skills. I'm also a Full-Stack Developer and on my way to lifelong learning.
+                    <br>
+                    I love to read and write. In my free time you'll find me sitting at my terrace and putting down my thoughts in form of poetry. Or possibly, I'd be spotifying my night away.
+                </p>
+                <a href="https://drive.google.com/file/d/1j9P1JD_BWh7_wJswEdwff8EbqOcer63i/view?usp=sharing" target="_blank">Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="heading">
+            <h2>Projects</h2>
+        </div>
+
+        <br> 
+
+        <div class="projects-content">
+
+            <!-- Boxes -->
+            <a href="https://github.com/swarina/Blogman" target="_blank" class="box">
+            <div>
+                <h1>Blogman 👨‍🎓</h1> 
+                <br>
+                <p>A blogging website where users can share their thoughts in form of blog posts. The website provides easy SignUp and SignIn features for each user. It supports CRUD and commenting functionalities.</p>
+            </div>
+            </a>
+
+            <a href="https://github.com/swarina/TaskIt" target="_blank" class="box">
+            <div>
+                <h1>TaskIt 📝</h1>
+                <br>
+                <p>A simple To-Do list application where users can create, update or delete their daily tasks and manage them efficiently.</p>
+            </div>
+            </a>
+
+            <a href="https://github.com/swarina/polling-app" target="_blank" class="box">
+            <div>
+                <h1>PollApp 🔢</h1>
+                <br>
+                <p>A simple polling app which collects the votes to a question and displays the final result.</p>
+            </div>
+            </a>
+
+            <a href="https://github.com/swarina/Attendance-System" target="_blank" class="box">
+            <div>
+                <h1>Attendance System 🧑‍🏫</h1>
+                <br>
+                <p>An automatic Attendance Management System which uses Face Detection and Face Recognition features to mark attendance of users and update it in the existing database accordingly.</p>
+            </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="heading color">
+            <h2>Contact</h2>
+            <br>
+            <p>Reach me out for collaboration on projects, job opportunities or just a fun conversation. I'd love to hear from you!</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="app">
+                <h1>Drop a Text.<br>I'll get back to you soon.</h1> 
+            </div>
+            <div class="contact-form">
+                <form action="mailto:swarinajaiswal@gmail.com" method="POST" enctype="multipart/form-data>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Your E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here."></textarea>
+                    <input type="button" value="Send" class="contact-button">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p><strong>&lt;/Have a great day!&gt;</strong></p>
+    </div>
+
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+
+</body>
+</html>
